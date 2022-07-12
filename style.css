@@ -104,11 +104,64 @@ body{
 /* ----SECTION SERVICES -----*/
 
 .services{
-    width: 375px;
-    height: 1375px;
+    font-family: 'Open Sans', sans-serif;
+    width: auto;
+    height: auto;
     background-color: #FAFAFA;
     display: grid;
     grid-template-rows: 85px 2fr 2fr 2fr;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px 0px
 }
+
+.services-title-h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #2C2C2C;
+    margin: 60px 0px 0px 0px;
+}
+
+.services-item{
+    width: 262px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.services-item-h5{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.services-item-p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+/* ----- FORM ------- */
+
+.section-formulario{
+    width: 375px;
+    height: 660px;
+    background: #141414;
+}
+
 
 
