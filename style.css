@@ -8,8 +8,17 @@ body{
     src: url(/src/font/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
+@media (min-width: 769px){
+
+}
+
 .header{
     background-image: url(/src/img/puntitos.png);
+}
+@media (min-width: 769px){
+    .header{
+        background-image: url(/src/img/puntitos@2x.png);
+    }
 }
 
 .navbar{
@@ -17,12 +26,14 @@ body{
     justify-content: space-between;
     height: 79px;
 }
+@media (min-width: 769px){
 
+}
 .logo{
     height: 79px;
 }
 
-.menu{
+.menu-mobile{
     height: 75px;
     display: flex;
     flex-direction: column;
@@ -30,6 +41,18 @@ body{
     justify-content: center;
     align-items: center;
     margin-right: 20px;
+}
+@media (min-width: 769px){
+    .menu-mobile{
+        display: none;
+    }
+}
+
+.menu-desk{
+    display:none;
+}
+@media (min-width: 769px){
+
 }
 
 .rectangulo-menu{
@@ -119,7 +142,8 @@ body{
     grid-template-rows: 85px 2fr 2fr 2fr;
     justify-content: space-around;
     align-items: center;
-    gap: 80px 0px
+    gap: 80px 0px;
+    margin: 15px 0px 15px 0px
 }
 
 .services-title-h3{
