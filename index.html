@@ -64,33 +64,61 @@
 
     <section class="section-formulario">
         
-        <div class="titulo-about escribime">
-            <h3>Escribime</h3>
+        <div class="titulo-about">
+            <h3 class="escribime">Escribime</h3>
         </div>
         
         <div class="formulario">
             <div>
                 <label for="email" class="form-label">Email</label>
-            <input type="text" name="email">
+                <input type="text" name="email" class="form-input">
             </div>
             
             
             <div>
                 <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" name="nombre">
+                <input type="text" name="nombre" class="form-input">
             </div>
             
             <div>
                 <label for="mensaje" class="form-label">Mensaje</label>
-                        <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escriba su mensaje aquí..."></textarea>
+                <textarea name="mensaje" id="" cols="30" rows="10" class="form-input textarea" placeholder="Escriba su mensaje aquí..."></textarea>
             </div>
 
             <div>
-                <button>Enviar</button>
+                <button class="form-button">Enviar</button>
             </div>
         </div>
-            
-           
+    </section>
+
+    <section class="section-footer">
+
+        <div class="footer-marca">
+            <img src="/src/img/logo.png" alt="" class="footer-logo">
+            <p class="footer-p">© 2022</p>
+        </div>
+
+        <div class="footer-redes">
+            <div class="footer-linkedin">
+                <a href="https://www.linkedin.com/in/seba-campo/" target="_blank">
+                    <img src="/src/img/linkedin.png" alt="" class="footer-logo-redes"   >
+                    <p class="footer-redes-p">Linked-In</p>
+                </a>
+            </div>
+            <div class="footer-instagram">
+                <a href="https://www.instagram.com/sebas_campo/" target="_blank">
+                    <img src="/src/img/instagram.png" alt="" class="footer-logo-redes">
+                    <p class="footer-redes-p">Instagram</p>
+                </a>
+            </div>
+            <div class="footer-github">
+                <a href="https://github.com/seba-campo" target="_blank">
+                    <img src="/src/img/github.png" alt="" class="footer-logo-redes">
+                    <p class="footer-redes-p">GitHub</p>
+                </a>
+            </div>
+        </div>
+
     </section>
 </body>
 </html>
